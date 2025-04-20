@@ -1,0 +1,51 @@
+Chile se suscribió al acuerdo de París, que tiene como objetivo ser carbono neutral. En el caso de Chile es para el 2050.
+Y, ¿cuál es el plan que tomó? Descarbonizar la matriz energética. ¿Cómo?
+Sacando o reemplazando la termoeléctrica por generación sustentable.
+El problema de eso, es el problema de la inercia, que reduce la inercia, ¿ya?
+Y, por ejemplo, lo que se hace convencionalmente, que es el control primario de frecuencia, eso se ve complejizado. Pues estamos haciendo un resumen.
+la frecuencia es una variable muy relevante en la parte del sistema eléctrico, y que se ve deteriorada con esta integración de generación sustentable, y ante eso, aquí en el centro, surge la idea de desarrollar algoritmos de control, para mejorar esa variable en el sistema eléctrico.
+El Francisco, por ejemplo, bueno, Francisco, Aldo y Gabriel, lo hacen a través de turbinas eólicas.
+¿Ya?
+Algoritmos que, que entregan o ajustan la potencia que inyectan estas turbinas, en función de cómo va variando las frecuencias.
+¿Ya?
+Yo hago algo parecido, pero, a través de lo que se denomina, eh, respuesta de la demanda.
+Entonces, todos estos dispositivos, que nosotros estamos desarrollando aqui, obviamente a nivel mundial también lo están haciendo, utilizan interfaces de electrónica de potencia.
+El control, como bien, se implementa en interfaces de electrónica de potencia.
+Por ejemplo, el Francisco utiliza una turbina eólica, me imagino que el control va en el rotor-side controller, ¿o no?
+En el lado del rotor.
+Entonces, se implementa el control en un sector del convertidor.
+Y ese convertidor controla la turbina para ajustar la potencia. Con potencia se ajusta la frecuencia.
+Y en el caso de lo que hago yo es parecido.
+Entonces, en el fondo necesitamos, volviendo al concepto de TRL, de nivel de madurez tecnológica,
+nosotros aquí actualmente tenemos TRL 2.
+¿Qué significa eso?
+A nivel de madurez tecnológica, significa que nuestro prototipo está validado en una simulación como MATLAB O simulink.
+¿Ya?
+Pero, si se quiere implementar propiamente tal en una turbina como lo haría el francisco, tienen que ir subiendo su nivel de madurez tecnológica.
+Y la siguiente es, evaluarlo a nivel de laboratorio.
+Y para eso, se utilizan los simuladores en tiempo real.
+Entonces, ahí, esta la necesidad.
+Nosotros, necesitamos validar nuestros prototipos a nivel de laboratorio, o en, en el fondo en nivel TRL 4.
+Y para eso, necesitamos, que, la interfaz de electrónica de potencia sea algo, verdadero.
+ya no simulado.
+Entonces, ¿cuál sería el origen?
+El origen sería todo eso, de la turbina, o sea, del cambio climático y todo ese tema.
+Y la necesidad es, que nosotros necesitamos, por, por un tema de nivel de madurez tecnológica, escalar estos, prototipos.
+Y para eso, ahí, necesitamos, desarrollar, una prueba experimental, en laboratorio.
+Y para eso, necesitamos, que alguien sepa utilizarlo.
+¿Ya?
+Ese sería la problematica
+Y entonces, ya después vendría el objetivo.
+¿Cuál es el objetivo?
+Es el que sale en el Excel (desarrollo --> homologación de convertidor back to back en entorno de simulación ehs para pruebas c-hil
+objetivos --> implementar un convertidor back to back en entorno de simulación ehs schematic editor para desarrollo de pruebas c-hil
+).
+Una cosa es que, por ejemplo,
+usted puede poner la foto ahí del infelix, pero usted tiene que mencionar ahí, en la problemática, que, por un tema de, por una recomendación del fabricante,
+le recomendó que previo a utilizarlo en el infelix, utilizara ese software que les mencioné el EHS.
+Y ahí está listo con el problema.
+Y después, el, el objetivo es, desarrollar, en nuestro caso, un convertidor back-to-back en el software EHS.
+Y ahí lo que, habría que conversar es el objetivo específico.
+¿Qué tiene que hacer para, para implementarlo?
+entonces primero, capacitarse. entonces tiene que poner hacer la capacitación del software rt-lab ehs que es el compendio de videos que le voy a pasar. Ese sería el primer objetivo específico.
+El segundo, hacer estos demos para entender después, desarrollar la simulación del back to back, que seria la migración. Y por último, documentar la sintonización del control. Serían esos cuatro. Y creo que con eso estamos con la primera entrega.
