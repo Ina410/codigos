@@ -1,0 +1,51 @@
+Agrega los datos del archivo CSV con las tendencias en MatLab, a partir de la tabla
+separa cada una de las columnas de la tabla en variables independientes.
+Las variables a utilizar son:
+• Nivel (%)
+• Temperatura (°C)
+• Flujo (m3/h)
+1. Realiza un análisis estadístico de las tendencias.
+2. A partir de las tendencias cálcula el nivel máximo y mínivo del volumen que
+es capaz de almacenar el estánque.
+3. Totaliza el flujo total de agua
+4. Correlaciona las variables entre ellas en función a analisis de forma, describe
+la narrativa de control en función a la figura 2 y el analisis anterior. Gráfica
+y analiza.
+5. Determina los límites máximos, minimos, SP, MV, PV, determina el rango
+calibrado de las variables.
+6. Selecciona una variable y filtra señal (aplica filtro media movil), esta señal
+será la señal que utilizaras para la estimación del sistema dinámico.
+7. Selecciona una de las variables, calcula su tendencia. Especifica si esta
+tendencia puede ser utilizada como el comportamiento del proceso, o si es
+necesario seleccionar solo un periodo de la variable seleccionada.
+8. Selecciona la variable nivel y los set-point, y estima el modelo dinámico del
+sistema (espacio estado o función de transferencia), determina el off-set de las
+señales antes la estimación de la dinámica del proceso.
+9. Analiza las variables Nivel, Flujo de Salida, Set-Point de Nivel y concluye el
+funcionamiento dinámico del sistema.
+10. Realiza un análisis del filtro aplicado, para el cual determina su respuesta en
+frecuencia, y ganancia.
+11. Basado en el comportamiento de las tendencias, y los demás análisis
+realizados, y considerando el P&ID realiza una narrativa descriptiva del
+proceso.
+
+Dr. Eduardo Viera Riquelme
+Mail: Eduardo.vierar@usach.cl
+© Derechos Reservados -2025
+12. Describe y sintentiza a travésd e diagramas la relación de aplicación de
+procesamiento de datos, el trabajo realizado y la aplicación en sistema de
+control distribuidos del contenido de esta experiencia.
+
+Figura 2 - P&ID de referencia extracción de tendencias.
+
+Deberán considerar que todos los puntos deben entregar gráficos, presentación de
+resultados, y los cálculos respectivos.
+Deberán presentar un archivo *.m con los códigos usados, así como *.mat con las
+variables del workspace.
+
+1. Intrucción.
+2. Objetivo de la experiencia.
+3. Análisis del problema.
+4. Desarrollo experimental.
+5. Conclusión .
+6. Anexo con el desarrollo de los entregables.
